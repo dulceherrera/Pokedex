@@ -1,0 +1,207 @@
+:root{
+  --color-normal: #AA27BB;
+  --color-fighting: #912038;
+  --color-poison: #B251D8;
+  --color-ground: #6B4B4B;
+  --color-rock: #A2A2AC;
+  --color-bug: #44BB26;
+  --color-ghost: #5351D8;
+  --color-steel: #7A8383;
+  --color-fire: #C96827;
+  --color-water: #339DBB;
+  --color-grass: #6DA783;
+  --color-electric: #4E58B8;
+  --color-ice: #5ED0D8;
+  --color-dragon: #84C5C5;
+  --color-dark: #2F3035;
+  --color-fairy: #B884C5;
+  --color: #B4B483;
+}
+
+.container-pokeCard{
+  display: flex;
+  flex-direction: column;
+  width: 16rem;
+  max-width: 18rem;
+  align-items: center;
+  background: linear-gradient(var(--color), white);
+  transition: transform 120ms ease;
+  color: var(--color);
+  border: 0.5rem solid var(--color);
+  border-radius: 0.8rem;
+}
+
+.container-pokeCard:hover{
+  filter: brightness(1.03)
+  drop-shadow(4px 4px 3px #0008);
+  transform: scale(1.03);
+}
+
+.pokerCard-header{
+  margin-top: 1rem;
+  position: relative;
+  display: flex;
+}
+
+.img-pokecard-header{
+  max-width: 9rem;
+  margin: 0 auto -2em auto;
+}
+
+.pokeCard-info{
+  background-color: white;
+  text-align: center;
+  width: 100%;
+  border-radius: 0 0 0.7rem 0.7rem;
+}
+
+.pokeCard-title{
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  margin-top: 2.2rem;
+}
+
+.pokeCard-info-type{
+  display: flex;
+  justify-content: center;
+  font-weight: 300;
+  gap: 1rem;
+}
+
+.pokeCard-infotype-li{
+  color: black;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.pokeCard-info-p{
+  font-size: 0.9rem;
+  color: #9F9F9F;
+}
+
+.pokeCard-info-sep{
+  border-top: 1px solid #E5E5E5;
+}
+
+.pokeCard-info-stats{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.pokeCard-stats-li{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokeCard-stats-name{
+  color: #9F9F9F;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+  margin-bottom: 0.4rem;
+}
+
+.pokeCard-stats-stat{
+  color: black;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.normal-gradient{
+  color: var(--color-normal);
+  background: linear-gradient(var(--color-normal), white);
+  border: 0.6rem solid var(--color-normal);
+}
+
+.fighting-gradient {
+  color: var(--color-fighting);
+  background: linear-gradient(var(--color-fighting), white);
+  border: 0.6rem solid var(--color-fighting);
+}
+
+.poison-gradient {
+  color: var(--color-poison);
+  background: linear-gradient(var(--color-poison), white);
+  border: 0.6rem solid var(--color-poison);
+}
+
+.ground-gradient {
+  color: var(--color-ground);
+  background: linear-gradient(var(--color-ground), white);
+  border: 0.6rem solid var(--color-ground);
+}
+
+.rock-gradient {
+  color: var(--color-rock);
+  background: linear-gradient(var(--color-rock), white);
+  border: 0.6rem solid var(--color-rock);
+}
+
+.bug-gradient {
+  color: var(--color-bug);
+  background: linear-gradient(var(--color-bug), white);
+  border: 0.6rem solid var(--color-bug);
+}
+
+.ghost-gradient {
+  color: var(--color-ghost);
+  background: linear-gradient(var(--color-ghost), white);
+  border: 0.6rem solid var(--color-ghost);
+}
+
+.steel-gradient {
+  color: var(--color-steel);
+  background: linear-gradient(var(--color-steel), white);
+  border: 0.6rem solid var(--color-steel);
+}
+
+.fire-gradient {
+  color: var(--color-fire);
+  background: linear-gradient(var(--color-fire), white);
+  border: 0.6rem solid var(--color-fire);
+}
+
+.water-gradient {
+  color: var(--color-water);
+  background: linear-gradient(var(--color-water), white);
+  border: 0.6rem solid var(--color-water);
+}
+
+.grass-gradient {
+  color: var(--color-grass);
+  background: linear-gradient(var(--color-grass), white);
+  border: 0.6rem solid var(--color-grass);
+}
+
+.electric-gradient {
+  color: var(--color-electric);
+  background: linear-gradient(var(--color-electric), white);
+  border: 0.6rem solid var(--color-electric);
+}
+
+.ice-gradient {
+  color: var(--color-ice);
+  background: linear-gradient(var(--color-ice), white);
+  border: 0.6rem solid var(--color-ice);
+}
+
+.dragon-gradient {
+  color: var(--color-dragon);
+  background: linear-gradient(var(--color-dragon), white);
+  border: 0.6rem solid var(--color-dragon);
+}
+
+.dark-gradient {
+  color: var(--color-dark);
+  background: linear-gradient(var(--color-dark), white);
+  border: 0.6rem solid var(--color-dark);
+}
+
+.fairy-gradient {
+  color: var(--color-fairy);
+  background: linear-gradient(var(--color-fairy), white);
+  border: 0.6rem solid var(--color-fairy);
+}

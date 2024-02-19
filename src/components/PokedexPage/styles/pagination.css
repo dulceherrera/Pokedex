@@ -1,0 +1,33 @@
+.container-pages{
+  max-width: 60%;
+  margin: 2rem auto 0 auto;
+}
+
+.pagination-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.pagination-list-btn{
+  width: 2.5rem;
+  aspect-ratio: 1;
+  border: none;
+  border-radius: 0.3rem;
+}
+
+.pagination-list-btn:hover{
+  filter: brightness(1.3);
+}
+
+.selected{
+  background-color: #DC191B;
+  color: white;
+}
+
+.fa-caret-right,
+.fa-caret-left
+{
+  font-size: 1.3rem;
+}

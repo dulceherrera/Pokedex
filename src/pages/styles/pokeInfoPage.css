@@ -1,0 +1,189 @@
+body{
+  background-color: #F5F5F5;
+}
+
+.pokemon-ind-container{
+  width: 70vw;
+  margin: 0 auto;
+  color: #5A5A5A;
+  text-align: center;
+}
+
+.pokeInfo-back{
+  display: flex;
+  justify-content: start;
+  left: 0;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.pokeInfo-back-arrow{
+  cursor: pointer;
+}
+
+.pokeInfo-header{
+  width: 100%;
+  height: 6rem;
+  position: relative;
+  margin-top: 3rem;
+  background: linear-gradient(var(--color), white);
+  border-radius: 0.2rem;
+}
+
+.pokeinfo-img{
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: -5rem;
+  max-width: 9rem;
+}
+
+.pokeInfo-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+}
+
+.pokeInfo-card-id{
+  border: 1px solid #D3D3D3;
+  border-radius: 2px;
+  width: 2.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.pokeInfo-card-name{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  width: 80%;
+}
+
+.pokeInfo-card-name > hr{
+  width: 30%;
+  height: 0.2rem;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.pokeinfo-card-name-h2{
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.pokeinfo-card-data{
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.pokeinfo-card-p{
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  font-size: 0.8rem;
+}
+
+.pokeinfo-card-p > span {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.pokeinfo-card-stats-ty-ab{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 2rem;
+  gap: 1rem;
+}
+
+.pokeinfo-card-stats-ty-ab-p{
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.pokeinfo-card-ty-ab{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  text-transform: capitalize;
+}
+
+.pokeinfo-card-ty-ab >li {
+  width: 8rem;
+  height: 2rem;
+  border-radius: 0.2rem;
+  padding: 0.5rem 0;
+}
+
+.pokeInfo-card-stats{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 90%;
+}
+
+.pokeInfo-card-stats-title{
+  font-weight: 500;
+}
+
+.pokeInfo-card-stat{
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  width: 100%;
+}
+
+.pokeinfo-stat-graph{
+  width: 100%;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.pokeinfo-stat-graph-1{
+  width: 50%;
+  height: 1rem;
+  background: linear-gradient(90deg, #FCD676 -2.25%, #E6901E 133.18%);
+}
+
+.pokeinfo-stat-graph-2{
+  width: 50%;
+  height: 1rem;
+  background-color: gray;
+}
+
+.pokeinfo-card-movements{
+  width: 70vw;
+  background-color: white;
+  padding: 1rem;
+  color: #302F2F;
+  margin: 2rem auto;
+}
+
+.pokeinfo-card-movements > h2 {
+  margin-top: 1rem;
+}
+
+.pokeinfo-moves-ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 2rem;
+  gap: 0.8rem;
+}
+
+.pokeInfo-move{
+  background-color: #E5E5E5;
+  padding: 0.5rem;
+  border-radius: 50px;
+  text-transform: capitalize;
+}
+
+.pokeInfo-card-stat > span {
+  text-transform: capitalize;
+}
