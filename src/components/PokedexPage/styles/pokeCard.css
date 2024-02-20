@@ -15,6 +15,8 @@
   --color-dragon: #84C5C5;
   --color-dark: #2F3035;
   --color-fairy: #B884C5;
+  --color-psychic: #F65989;
+  --color-flying: #A890F0;
   --color: #B4B483;
 }
 
@@ -112,61 +114,61 @@
 
 .normal-gradient{
   color: var(--color-normal);
-  background: linear-gradient(var(--color-normal), white);
+  background: linear-gradient(var(--color-normal), white 30%);
   border: 0.6rem solid var(--color-normal);
 }
 
 .fighting-gradient {
   color: var(--color-fighting);
-  background: linear-gradient(var(--color-fighting), white);
+  background: linear-gradient(var(--color-fighting), white 30%);
   border: 0.6rem solid var(--color-fighting);
 }
 
 .poison-gradient {
   color: var(--color-poison);
-  background: linear-gradient(var(--color-poison), white);
+  background: linear-gradient(var(--color-poison), white 30%);
   border: 0.6rem solid var(--color-poison);
 }
 
 .ground-gradient {
   color: var(--color-ground);
-  background: linear-gradient(var(--color-ground), white);
+  background: linear-gradient(var(--color-ground), white 30%);
   border: 0.6rem solid var(--color-ground);
 }
 
 .rock-gradient {
   color: var(--color-rock);
-  background: linear-gradient(var(--color-rock), white);
+  background: linear-gradient(var(--color-rock), white 30%);
   border: 0.6rem solid var(--color-rock);
 }
 
 .bug-gradient {
   color: var(--color-bug);
-  background: linear-gradient(var(--color-bug), white);
+  background: linear-gradient(var(--color-bug), white 30%);
   border: 0.6rem solid var(--color-bug);
 }
 
 .ghost-gradient {
   color: var(--color-ghost);
-  background: linear-gradient(var(--color-ghost), white);
+  background: linear-gradient(var(--color-ghost), white 30%);
   border: 0.6rem solid var(--color-ghost);
 }
 
 .steel-gradient {
   color: var(--color-steel);
-  background: linear-gradient(var(--color-steel), white);
+  background: linear-gradient(var(--color-steel), white 30%);
   border: 0.6rem solid var(--color-steel);
 }
 
 .fire-gradient {
   color: var(--color-fire);
-  background: linear-gradient(var(--color-fire), white);
+  background: linear-gradient(var(--color-fire), white 30%);
   border: 0.6rem solid var(--color-fire);
 }
 
 .water-gradient {
   color: var(--color-water);
-  background: linear-gradient(var(--color-water), white);
+  background: linear-gradient(var(--color-water), white 30%);
   border: 0.6rem solid var(--color-water);
 }
 
@@ -178,30 +180,42 @@
 
 .electric-gradient {
   color: var(--color-electric);
-  background: linear-gradient(var(--color-electric), white);
+  background: linear-gradient(var(--color-electric), white 30%);
   border: 0.6rem solid var(--color-electric);
 }
 
 .ice-gradient {
   color: var(--color-ice);
-  background: linear-gradient(var(--color-ice), white);
+  background: linear-gradient(var(--color-ice), white 30%);
   border: 0.6rem solid var(--color-ice);
 }
 
 .dragon-gradient {
   color: var(--color-dragon);
-  background: linear-gradient(var(--color-dragon), white);
+  background: linear-gradient(var(--color-dragon), white 30%);
   border: 0.6rem solid var(--color-dragon);
 }
 
 .dark-gradient {
   color: var(--color-dark);
-  background: linear-gradient(var(--color-dark), white);
+  background: linear-gradient(var(--color-dark), white 30%);
   border: 0.6rem solid var(--color-dark);
 }
 
 .fairy-gradient {
   color: var(--color-fairy);
-  background: linear-gradient(var(--color-fairy), white);
+  background: linear-gradient(var(--color-fairy), white 30%);
   border: 0.6rem solid var(--color-fairy);
+}
+
+.psychic-gradient{
+  color: var(--color-psychic);
+  background: linear-gradient(var(--color-psychic), white 30%);
+  border: 0.6rem solid var(--color-psychic);
+}
+
+.flying-gradient {
+  color: var(--color-flying);
+  background: linear-gradient(var(--color-flying), white 30%);
+  border: 0.6rem solid var(--color-psychic);
 }
