@@ -217,5 +217,5 @@
 .flying-gradient {
   color: var(--color-flying);
   background: linear-gradient(var(--color-flying), white 30%);
-  border: 0.6rem solid var(--color-psychic);
+  border: 0.6rem solid var(--color-flying);
 }
